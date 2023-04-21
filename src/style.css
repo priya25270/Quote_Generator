@@ -1,0 +1,66 @@
+.quote-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+  .quote-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .quote-author {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    text-align: right;
+    
+ }
+  
+  button {
+   float: right;
+   font-size: 1rem;
+   border-radius: 3px 3px;
+   width:100px;
+  }
+  .quote-box{
+  border-radius: 3px;
+        position: relative;
+        width: 450px;
+        padding: 40px 50px;
+        display: table;
+        background-color:white;
+  }
+  #twitters{
+    position: absolute;
+    margin-left: 0px;
+     }
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+ .tumblr{
+    position: absolute;
+    margin-left: 60px;
+    
+  }
+  .logos{
+    height: 40px;
+    width: 40px;
+    margin-left:-8px;
+  }
+  #buttons{
+   font-size: 1rem;
+   padding-left: 86.5%;
+   }
+  .heading{
+    color: white;
+  }
+  .footer{
+    color:white;
+  }
+   #header{
+    color: white;
+   }
